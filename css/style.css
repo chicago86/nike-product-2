@@ -13,8 +13,11 @@ body {
   padding-right: 20px;
   max-width: 690px;
 }
+.ba-section{
+  padding: 100px 0;
+}
 .nike-card {
-  margin: 150px auto;
+  margin: 0 auto;
   width: 100vmin;
   box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
   border-radius: 10px;
