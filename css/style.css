@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900&display=swap");
+body {
+  font: 400 14px/1.1 "Raleway", sans-serif;
+  background: url(../img/backgraund.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: #e1e1e1;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 690px;
+}
+.nike-card {
+  margin: 150px auto;
+  width: 100vmin;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+}
+.logo {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.ba-row {
+}
+.ba-col-8 {
+}
+.ba-col-4 {
+}
+.ba-foto-product {
+  margin-bottom: 75px;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+h2 {
+  padding: 0;
+  margin-bottom: 15px;
+  max-width: 155px;
+  font-weight: 300;
+  height: 44px;
+  font-size: 21px;
+  letter-spacing: 0.48px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.one {
+  width: 12px;
+  height: 12px;
+  background-color: #1f273f;
+  border: none;
+}
+.one:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.two {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: none;
+}
+.two:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.tree {
+  width: 12px;
+  height: 12px;
+  background-color: #ed3333;
+  border: none;
+}
+.tree:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.four {
+  width: 12px;
+  height: 12px;
+  background-color: #29e3ea;
+  border: none;
+}
+.four:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+p {
+  padding: 0;
+  margin-bottom: 30px;
+}
+svg {
+  display: none;
+}
+.ba-star {
+  display: flex;
+}
+.icon {
+  margin-right: 3px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0px;
+  stroke: none;
+  fill: #f7bf16;
+}
+.size {
+  width: 69px;
+  height: 32px;
+  color: white;
+  background-color: #111a28;
+  border: 1px solid #4f5560;
+}
+.qty {
+  width: 69px;
+  height: 32px;
+  color: white;
+  background-color: #111a28;
+  border: 1px solid #4f5560;
+}
+.ba-star {
+  margin-bottom: 20px;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	margin-top: 30px;
+  display: inline-block;
+  width: 184px;
+  height: 40px;
+  border: 1px solid #4f5560;
+  background-color: #111a28;
+
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+	background: #fff;
+  color: #111a28;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 18px;
+  /* Text style for "Size" */
+  letter-spacing: 0.28px;
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	
+  border: 1px solid #4f5560;
+}
+textarea {
+}
