@@ -27,12 +27,7 @@ body {
   padding-top: 20px;
   margin-bottom: 20px;
 }
-.ba-row {
-}
-.ba-col-8 {
-}
-.ba-col-4 {
-}
+
 .ba-foto-product {
   margin-bottom: 75px;
   padding-left: 10px;
@@ -46,6 +41,9 @@ h2 {
   height: 44px;
   font-size: 21px;
   letter-spacing: 0.48px;
+}
+img{
+  padding-right: 20px;
 }
 ul {
   display: flex;
@@ -138,8 +136,9 @@ svg {
 .qty {
   width: 69px;
   height: 32px;
-  color: white;
-  background-color: #111a28;
+  text-align: center;
+  background: transparent;
+  color: #a1a1a3;
   border: 1px solid #4f5560;
 }
 .ba-star {
@@ -158,8 +157,9 @@ input[type="button"],
 button,
 .ba-button {
 	margin-top: 30px;
-  display: inline-block;
-  width: 184px;
+  display: block;
+  max-width: 184px;
+  padding: 0 35px;
   height: 40px;
   border: 1px solid #4f5560;
   background-color: #111a28;
